@@ -457,9 +457,9 @@ output {
 
 /*# sourceMappingURL=bootstrap-reboot.css.map */
 .btn-primary {
-  background-color: #48cfad;
-  color: #FFFFFF;
-  border: 1px #48cfad solid;
+  background-color: #531eb1;
+  color: #cbd9f5;
+  border: 1px #531eb1 solid;
   padding: 15px 15px;
   text-decoration: none;
   width: 100px;
@@ -467,11 +467,11 @@ output {
 }
 .btn-primary:hover {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #cbd9f5;
 }
 
 header section .icons-container {
-  background-color: #48cfad;
+  background-color: #531eb1;
 }
 
 .icons-container ul {
@@ -490,7 +490,7 @@ header section .icons-container {
 }
 
 .icons-container ul li a {
-  color: #FFFFFF;
+  color: #cbd9f5;
   text-decoration: none;
 }
 
@@ -534,19 +534,19 @@ main section {
 }
 main section h1 {
   text-align: center;
-  color: #FFFFFF;
+  color: #cbd9f5;
   letter-spacing: 15px;
 }
 
 footer {
-  background-color: #000000;
-  color: #FFFFFF;
+  background-color: #737fca;
+  color: #cbd9f5;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 60px;
   font-weight: 700;
-  border-top: 20px solid #48cfad;
+  border-top: 20px solid #531eb1;
   margin-top: 20px;
 }
 
@@ -556,7 +556,7 @@ footer p {
 }
 
 .main-blog {
-  background-color: #e6e9ed;
+  background-color: #dde6f6;
   margin-bottom: 10px;
 }
 
