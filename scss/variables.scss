@@ -1,0 +1,9 @@
+$primary-color: #48cfad;
+$secundary-color: #FFFFFF;
+$tertiary-color: #000000;
+$color-background: #e6e9ed;
+
+@mixin container {
+  max-width: 960px;
+  margin: 0 auto;
+}

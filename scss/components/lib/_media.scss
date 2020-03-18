@@ -1,0 +1,19 @@
+@media (max-width: 600px) {
+  .blogs-container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 760px) {
+  .blog-container .detail {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .blog-container .detail .detail-image img{
+    width: 100%;
+  }
+}

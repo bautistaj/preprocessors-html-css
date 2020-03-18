@@ -1,0 +1,51 @@
+.main-blog {
+  background-color: $color-background;
+  margin-bottom: 10px;
+}
+
+.blog-container {
+  @include container;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.blog-container .detail {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.blog-container .detail .detail-image img{
+  width: 500px;
+}
+.blog-container .detail .detail-info {
+  display: grid;
+}
+
+.blogs {
+  @include container;
+}
+
+.blogs-container {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fill, 310px);
+}
+
+.blogs-container .card-container {
+  margin-bottom: 10px;
+}
+
+.blogs-container .card-container h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.blogs-container .card-container img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.blogs-container .card-container p {
+  margin-bottom: 20px;
+}

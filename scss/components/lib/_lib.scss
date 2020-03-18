@@ -1,0 +1,21 @@
+@mixin card {
+  
+}
+
+@mixin btn {
+  padding: 15px 15px;
+  text-decoration: none;
+  &:hover{
+    text-decoration: none;
+    color: $secundary-color;
+  }
+  width: 100px;
+  height: 60px;
+}
+
+.btn-primary {
+  background-color: $primary-color;
+  color: $secundary-color;
+  border: 1px $primary-color solid;
+  @include btn;
+}

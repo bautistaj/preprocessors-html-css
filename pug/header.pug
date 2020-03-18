@@ -1,0 +1,7 @@
+header
+  section
+    .icons-container
+      ul
+        each sotial in sotials
+          +icon(sotial.url, sotial.icon)
+    +navigator('./about.html', 'Sobre mi')

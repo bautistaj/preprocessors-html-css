@@ -1,0 +1,33 @@
+header section .icons-container {
+  background-color: $primary-color;
+}
+
+.icons-container ul {
+  display: flex;
+  justify-content: flex-end;
+  justify-items: center;
+  align-items: center;
+  height: 40px;
+  padding: 30px 0;
+  @include container;
+}
+
+.icons-container ul li{
+  margin-left: 10px;
+}
+
+.icons-container ul li a{
+  color: $secundary-color;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @include container;
+}
+
+nav .logo-container img {
+  width: 200px;
+}

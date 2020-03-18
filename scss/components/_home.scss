@@ -1,0 +1,31 @@
+/*body {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+*/
+
+main {
+  background-image: url('../../images/Cover.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+main section {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  padding-top: 100px;
+  height: 100vh;
+  @include container;
+  h1 {
+    text-align: center;
+    color: $secundary-color;
+    letter-spacing: 15px;
+  }
+}

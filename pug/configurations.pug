@@ -1,0 +1,27 @@
+//Variables
+-var sotials = [{url: 'https://es-la.facebook.com/',icon: 'flaticon-001-facebook'},{url: 'https://es-la.facebook.com/',icon: 'flaticon-001-facebook'},{url: 'https://es-la.facebook.com/',icon: 'flaticon-001-facebook'},{url: 'https://es-la.facebook.com/',icon: 'flaticon-001-facebook'},{url: 'https://es-la.facebook.com/',icon: 'flaticon-001-facebook'}]
+
+//Mixins
+mixin icon(url, icon)
+  li
+    a(href=url)
+      span(class=icon)
+
+mixin navigator(url, title)
+  nav
+    .logo-container
+      img(src="../images/nav-logo.png", alt="", srcset="")
+    .profile
+      a(href=url) #{title}
+
+mixin button(url, title)
+  a.btn-primary(href=url) #{title}
+
+mixin card
+  .card-container
+    img(src="../images/main-news-img.png", alt="")
+    h2 Title of blog post
+    p.
+      Lorem Ipsum is simply dummy text 
+      of the printing and typesetting industry.
+    +button('','Leer')
